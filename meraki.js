@@ -15,7 +15,7 @@ var validator = "599df464da1dca1f283d1bc33c87b6e3c56255c4";		//Validator string 
 var express = require('express');
 var app = express();
 
-app.use(express.bodyParser());
+app.use(express.body-parser());
 
 app.get('/meraki', function(req, res){
   res.send(validator);
